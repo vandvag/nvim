@@ -63,9 +63,6 @@ end
 vim.cmd "set whichwrap+=<,>,[,],h,l"
 vim.cmd [[set iskeyword+=-]]
 
--- 2 spaces for selected filetypes
-vim.cmd [[ autocmd FileType html,xhtml,css,scss,lua,dart setlocal shiftwidth=2 tabstop=2]]
-
 -- Remove whitespace on save
 vim.cmd [[ au BufEnter * set fo-=c fo-=r fo-=o ]]
 
